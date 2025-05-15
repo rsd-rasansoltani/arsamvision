@@ -1,0 +1,88 @@
+_schema: _schema
+source: /
+paths:
+  uploads: uploads
+  static: ''
+collections_config:
+  pages:
+    path: /
+    glob:
+    name:
+    singular_name:
+    icon: notes
+    url:
+    disable_url: false
+    include_developer_files:
+    documentation:
+    description: ''
+    preview:
+    sort:
+    sort_options:
+    _editables:
+      text:
+        allow_custom_markup: true
+        remove_custom_markup: false
+        bold: false
+        copyformatting:
+        italic:
+        link:
+        paths:
+        redo:
+        removeformat:
+        strike:
+        subscript:
+        superscript:
+        underline:
+        undo:
+    _enabled_editors:
+      - visual
+    _inputs:
+      '123456789':
+        type: text
+        cascade: true
+    _select_data:
+    _structures:
+    add_options:
+    create:
+    disable_add: true
+    disable_add_folder: true
+    disable_file_actions: true
+    new_preview_url:
+    schemas:
+      '123':
+        path: /
+        reorder_inputs: true
+        hide_extra_inputs: false
+        remove_empty_inputs: false
+        remove_extra_inputs: true
+        name:
+        icon: notes
+        preview:
+        _editables:
+        _enabled_editors:
+        _inputs:
+        _select_data:
+        _structures:
+        create:
+        new_preview_url:
+    schema_key:
+timezone: Asia/Tehran
+markdown:
+  engine: commonmark
+  options:
+    xhtml: false
+    breaks: false
+    linkify: false
+    typographer: false
+    spaced_lists: false
+    sentence_per_line: false
+    gfm: false
+    code_block_fences: '```'
+    escape_snippets_in_code_blocks: false
+    treat_indentation_as_code: false
+    table: false
+    strikethrough: false
+    subscript: false
+    superscript: false
+    heading_ids: false
+    attributes: false
